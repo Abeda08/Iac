@@ -6,53 +6,56 @@ Infrastructure as Code (IaC) is a practice that uses code to manage and provisio
 Problem: Manually configuring infrastructure can lead to inconsistencies and configuration drift over time, where the actual state of the infrastructure deviates from the intended state.
 
 Solution: IaC ensures that infrastructure configurations are defined in code, which can be version-controlled, reviewed, and consistently applied. This reduces the likelihood of drift and ensures consistency across environments.
+
 2. Manual Errors
 
 Problem: Manual infrastructure management is prone to human errors, which can lead to configuration mistakes, security vulnerabilities, and operational issues.
 
 Solution: IaC automates the provisioning and management of infrastructure, reducing the potential for human error and ensuring that configurations are applied correctly and consistently.
-4. Lack of Scalability
+
+3. Lack of Scalability
 
 Problem: Scaling infrastructure manually is time-consuming and often not feasible for large-scale environments, leading to delays and inefficiencies.
 
 Solution: IaC allows for automated scaling of infrastructure through scripts and templates, enabling rapid provisioning and de-provisioning of resources as needed.
-5. Slow Provisioning
+
+4. Slow Provisioning
 
 Problem: Manually setting up infrastructure can be slow, especially in complex environments with many interdependent components, leading to delays in development and deployment.
 
 Solution: IaC enables rapid and automated provisioning of infrastructure, reducing setup times and accelerating development and deployment processes.
 
-6. Poor Documentation
+5. Poor Documentation
    
 Problem: Manually managed infrastructure often lacks proper documentation, making it difficult to understand and replicate environments.
 
 Solution: IaC inherently serves as documentation, as the code itself describes the desired state and configuration of the infrastructure. This makes it easier to understand, replicate, and maintain environments.
 
-8. Difficulty in Reproducing Environments
+6. Difficulty in Reproducing Environments
 
 Problem: Reproducing identical environments (e.g., for development, testing, and production) is challenging and error-prone when done manually.
 
 Solution: IaC enables the creation of identical environments through reusable code, ensuring that development, testing, and production environments are consistent.
 
-10. Inefficiency in Change Management
+7. Inefficiency in Change Management
 
 Problem: Managing changes in infrastructure manually is inefficient and can lead to untracked and undocumented modifications.
 
 Solution: IaC integrates with version control systems, enabling efficient change management, tracking, and rollback capabilities for infrastructure configurations.
 
-12. Security Vulnerabilities
+8. Security Vulnerabilities
 
 Problem: Manual infrastructure management can lead to inconsistent application of security practices and policies, increasing the risk of vulnerabilities.
 
 Solution: IaC allows for the consistent application of security policies and configurations, improving the overall security posture of the infrastructure.
 
-14. Collaboration Challenges
+9. Collaboration Challenges
 
 Problem: Collaborating on infrastructure changes can be difficult without a standardized, code-based approach.
 
 Solution: IaC facilitates collaboration by allowing infrastructure definitions to be stored in version control systems, where team members can review, comment, and contribute to the code.
 
-16. Disaster Recovery
+10. Disaster Recovery
 
 Problem: Manually recovering infrastructure after a disaster is complex and error-prone.
 
